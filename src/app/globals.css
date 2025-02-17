@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+label {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+#curveImg {
+  border-radius: 73% 27% 70% 30% / 47% 49% 51% 53%;
+}
+#curveBgImg {
+  border-radius: 15% 85% 70% 30% / 32% 45% 55% 68%;
+}
+#curveDashImg {
+  border-radius: 33% 67% 35% 65% / 47% 46% 54% 53%;
+}
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c7183a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* For Firefox */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #c7183a #f1f1f1;
+}

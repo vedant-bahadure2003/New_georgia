@@ -1,0 +1,141 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://uzbekistanmedi.com/</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/about-us</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/mbbs-in-uzbekistan</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/our-services</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/contact-us</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/andijan-state-medical-university</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/samarkand-state-medical-university</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-medical-academy</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/bukhara-state-medical-institute</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/fergana-medical-institute-of-public-health</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-state-dental-institute</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-pediatric-medical-institute</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/andijan-state-medical-university/courses-and-fees</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/andijan-state-medical-university/admission</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/samarkand-state-medical-university/courses-and-fees</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/samarkand-state-medical-university/admission</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-medical-academy/courses-and-fees</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-medical-academy/admission</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/bukhara-state-medical-institute/courses-and-fees</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/bukhara-state-medical-institute/admission</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/fergana-medical-institute-of-public-health/courses-and-fees</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/fergana-medical-institute-of-public-health/admission</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-state-dental-institute/courses-and-fees</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-state-dental-institute/admission</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-pediatric-medical-institute/courses-and-fees</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uzbekistanmedi.com/tashkent-pediatric-medical-institute/admission</loc>
+  <lastmod>2025-02-13T06:50:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset> -->
