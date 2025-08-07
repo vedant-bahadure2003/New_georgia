@@ -8,7 +8,7 @@ const Homepage = () => {
     <>
       <div className="bg-white flex justify-center min-h-screen pt-20 w-full">
         <div
-          className="flex flex-col md:flex-row bg-[#57462a] w-[95%] md:w-[90%] lg:w-[82%] h-auto md:h-[100vh] rounded-2xl overflow-visible"
+          className="flex flex-col md:flex-row bg-[#57462a] w-[95%] md:w-[90%] lg:w-[82%] h-auto md:h-[100vh] rounded-3xl overflow-visible"
           style={{
             backgroundImage:
               "linear-gradient(rgba(87, 70, 42, 0.7), rgba(87, 70, 42, 0.7)), url('/Geometric-Low-Poly.png')",
@@ -18,7 +18,7 @@ const Homepage = () => {
           }}
         >
           {/* Left Section */}
-          <div className="text-white w-full md:w-1/2 flex flex-col justify-between  items-center md:mt-14 mt-0 py-6 md:p-0">
+          <div className="text-white w-full md:w-1/2 flex flex-col justify-between   items-center md:mt-14 mt-0 py-6 md:p-0">
             <div className="flex flex-row-reverse lg:flex-col items-start p-3 ">
               <div className="mb-6">
                 <Image
@@ -31,8 +31,7 @@ const Homepage = () => {
               </div>
               <div className="w-full">
                 <h1 className="text-[32px] md:text-[64px] mb-2">
-                  Nashik City
-                  {/* <br className="hidden md:block" />  */}
+                  Nashik City <br className="hidden md:block" />
                   Police
                 </h1>
                 <p className="text-[24px] md:text-[48px] mb-2">

@@ -42,10 +42,10 @@ const WhatsAppDashboard = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-      <div className="w-full h-auto lg:h-[100vh] flex flex-col lg:flex-row justify-center items-center lg:gap-4 gap-6 bg-white rounded-xl  overflow-hidden">
+      <div className="lg:w-[75%] w-full h-auto lg:h-[100vh] flex flex-col lg:flex-row justify-center items-center lg:gap-4 gap-6 bg-white rounded-xl  overflow-hidden">
         {/* Left Section */}
-        <div className="w-full lg:w-1/4 flex flex-col justify-center gap-4 px-2 lg:h-[75vh]">
-          <div className="bg-[#57462a] px-4  rounded-2xl">
+        <div className="w-full lg:w-[30%] flex flex-col justify-center gap-4 px-2  lg:h-[75vh]">
+          <div className="bg-[#57462a] px-4 border border-yellow-500  rounded-2xl">
             <h1 className="text-[48px] lg:text-[86px] text-white">
               <span className="text-[18px] lg:text-[24px]">
                 Total WhatsApp Messages
@@ -77,7 +77,7 @@ const WhatsAppDashboard = () => {
         </div>
 
         {/* Right Section (Chart) */}
-        <div className="w-full lg:w-2/4 px-2 ">
+        <div className="w-full lg:w-[70%] px-2 lg:h-[75vh] ">
           <div className="p-4 bg-[#eef] rounded-2xl">
             <h2 className="text-[20px] lg:text-[24px] text-gray-700 mb-6">
               Total WhatsApp Messages
@@ -85,7 +85,7 @@ const WhatsAppDashboard = () => {
 
             <div
               ref={chartRef}
-              className="relative w-full h-80 flex items-end justify-evenly gap-4 bg-[#eef] rounded-xl"
+              className="relative w-full h-[60vh] flex items-end justify-evenly gap-4 bg-[#eef] rounded-xl"
               onMouseLeave={() => setHoveredBar(null)}
             >
               {messageeData.map((item, index) => (

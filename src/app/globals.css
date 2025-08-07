@@ -26,12 +26,12 @@ p {
 
 /* For Webkit browsers */
 ::-webkit-scrollbar {
-  height: 8px;
+  height: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #c7183a;
-  border-radius: 4px;
+  background-color: #57462a;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-track {
