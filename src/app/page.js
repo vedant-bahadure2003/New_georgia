@@ -1,18 +1,32 @@
-import Home from "./Home";
-export const metadata = {
-  title: "Uzbekistan Medi: MBBS Abroad Consultants in India",
-  description:
-    "Uzbekistan Medi, a trusted MBBS abroad consultant in India, helps Indian students secure admission to top medical universities with affordable fees.",
-  alternates: { canonical: "https://uzbekistanmedi.com" },
+import Image from "next/image";
+import Homepage from "@/_components/homepage/Homepage";
+import JusticeHelpSecurityDashboard from "@/_components/homepage/Justice";
+import GrievancePortals from "@/_components/homepage/GrievancePortals";
+import ComplaintSection from "@/_components/homepage/ComplaintSection";
+import CommissionerMessage from "@/_components/homepage/CommissionerMessage";
+import WhatsappSection from "@/_components/homepage/WhatsappSection";
+import Kumbh from "@/_components/homepage/Kumbh";
+import PoliceStationLocator from "@/_components/homepage/PoliceStationLocator";
+import WhatsAppDashboard from "@/_components/homepage/WhatsAppDashboard";
+import SecurityInitiative from "@/_components/homepage/SecurityInitiative";
+import LatestActivities from "@/_components/homepage/LatestActivities";
+import SocialMediaFeed from "@/_components/homepage/SocialMediaFeed";
+export default function Home() {
+  return (
+    <>
+      <Homepage />
+      <JusticeHelpSecurityDashboard />
 
-  openGraph: {
-    title: "Uzbekistan Medi: MBBS Abroad Consultants in India",
-    description:
-      "Uzbekistan Medi, a trusted MBBS abroad consultant in India, helps Indian students secure admission to top medical universities with affordable fees.",
-
-    url: "https://uzbekistanmedi.com",
-
-    type: "website",
-  },
-};
-export default Home;
+      <GrievancePortals />
+      <ComplaintSection />
+      <CommissionerMessage />
+      <WhatsappSection />
+      <WhatsAppDashboard />
+      <PoliceStationLocator />
+      <SecurityInitiative />
+      <LatestActivities />
+      <SocialMediaFeed />
+      <Kumbh />
+    </>
+  );
+}

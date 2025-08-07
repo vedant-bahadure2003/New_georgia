@@ -1,104 +1,165 @@
+"use client";
+
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import Head from "next/head";
-import { MdEmail } from "react-icons/md";
-import { BiLocationPlus, BiPhone } from "react-icons/bi";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { BsCalendar2Date } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <>
-      <Head>
-        <meta
-          name="description"
-          content="Learn about Uzbekistan Medi, your trusted guide for pursuing MBBS in Uzbekistan. We offer support for top universities and globally recognized degrees."
-        />
-        <meta
-          name="keywords"
-          content="Uzbekistan Medi, MBBS in Uzbekistan, medical education, study in Uzbekistan, top universities, medical degrees"
-        />
-        <meta name="author" content="Uzbekistan Medi" />
-      </Head>
+    <footer className="bg-white pt-12 pb-3 border-t border-gray-200 text-[#1c1c1c] ">
+      {/* Top Logos */}
+      <div className="flex justify-center flex-wrap gap-6 md:gap-10 px-4">
+        {[
+          "image1.webp",
+          "image2.webp",
+          "image3.webp",
+          "image4.webp",
+          "image5.webp",
+          "image6.webp",
+          "image7.webp",
+          "image8.webp",
+          "image9.webp",
+        ].map((img, idx) => (
+          <Image
+            key={idx}
+            src={`/footer/${img}`}
+            alt={`logo-${idx}`}
+            width={80}
+            height={80}
+            className="object-contain h-12"
+          />
+        ))}
+      </div>
 
-      <div className="w-full h-auto bg-gradient-to-t from-[#001849] to-[#07193E] flex items-center justify-center pb-3 flex-col gap-4 sm:py-[40px] py-14">
-        <div className="flex flex-col lg:flex-row gap-10 w-[90%] lg:w-[80%] h-auto text-black mt-[20px]">
-          {/* About Section */}
-          <div className="flex flex-col gap-4 lg:w-[40%]">
-            <h2 className="text-[24px] lg:text-[24px] font-semibold text-gray-300">
-              About Georgia Medi
-            </h2>
-            <p className="text-[12px] text-gray-300">
-              Georgia Medi is your trusted partner in pursuing MBBS in Georgia.
-              With a mission to simplify medical education abroad, we connect
-              aspiring doctors with top NMC and WHO-recognized universities.
-            </p>
+      {/* Main Footer Content */}
+      <div className="w-[90%] md:w-[70%] mx-auto mt-14">
+        <h2 className="text-[#57462a] text-[24px] font-semibold ">
+          Nashik City Police
+        </h2>
+        <div className=" mx-auto mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 text-sm">
+          {/* Column 1 */}
+          <div>
+            <h3 className="text-[20px] font-medium mb-4">
+              General Information
+            </h3>
+            <ul className="space-y-2 text-gray-500 text-[14px] ">
+              <li>
+                <Link href="#">Press Releases</Link>
+              </li>
+              <li>
+                <Link href="#">FAQs</Link>
+              </li>
+              <li>
+                <Link href="#">Gallery</Link>
+              </li>
+              <li>
+                <Link href="#">Senior Officer List</Link>
+              </li>
+              <li>
+                <Link href="#">Police Recruitment</Link>
+              </li>
+              <li>
+                <Link href="#">Disclaimer</Link>
+              </li>
+            </ul>
           </div>
 
-          {/* Quick Links Section */}
-          <div className="flex flex-col gap-4 lg:w-[40%] lg:items-center">
-            <h2 className="text-[24px] lg:text-[24px] font-semibold text-gray-300">
-              Quick Links
-            </h2>
-            <div className="flex flex-col gap-3 text-[14px] text-gray-300">
-              <Link href={"/"} className="hover:text-white">
-                Home
-              </Link>
-              <Link href={"/about-us"} className="hover:text-white">
-                About Us
-              </Link>
-              <Link href={"/contact-us"} className="hover:text-white">
-                Contact Us
-              </Link>
-              <Link href={"/mbbs-in-georgia"} className="hover:text-white">
-                MBBS in Georgia
-              </Link>
-            </div>
+          {/* Column 2 */}
+          <div>
+            <h3 className="text-[20px] font-medium mb-4">Citizen Guidance</h3>
+            <ul className="space-y-2 text-gray-500 text-[14px]">
+              <li>
+                <Link href="#">Safety Tips</Link>
+              </li>
+              <li>
+                <Link href="#">Citizen Alert Wall</Link>
+              </li>
+              <li>
+                <Link href="#">Initiatives</Link>
+              </li>
+              <li>
+                <Link href="#">Arm License Form</Link>
+              </li>
+              <li>
+                <Link href="#">Unidentified Dead Bodies</Link>
+              </li>
+              <li>
+                <Link href="#">Useful Websites</Link>
+              </li>
+            </ul>
           </div>
 
-          {/* Contact Us Section */}
-          <div className="flex flex-col gap-3">
-            <h2 className="text-[24px] lg:text-[24px] text-gray-300 font-semibold">
-              Contact Us
-            </h2>
-            <div className="flex gap-2">
-              <BiLocationPlus size={29} color="white" />
-              <p className="text-[13px] text-gray-300">
-                KlickEdu, 1st Floor, MS Building, behind New Theatre, Aristo,
-                Thampanoor, Thiruvananthapuram, Kerala, 695012.
-              </p>
-            </div>
-            <div className="flex gap-2 text-gray-300 hover:text-white">
-              <MdEmail size={20} color="white" />
-              <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=info@klickedu.com."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[13px] hover:underline"
-              >
-                info@klickedu.com
-              </a>
-            </div>
-
-            <div className="flex gap-2 mt-1 text-gray-300 hover:text-white">
-              <BiPhone size={20} color="white" />
-              <a href="tel:8111996000" className="text-[13px]">
-                8111 99 6000
-              </a>
-            </div>
+          {/* Column 3 */}
+          <div>
+            <h3 className="text-[20px] font-medium mb-4">Quick Links</h3>
+            <ul className="space-y-2 text-gray-500 text-[14px]">
+              <li>
+                <Link href="#">Tenders</Link>
+              </li>
+              <li>
+                <Link href="#">Online Complaint</Link>
+              </li>
+              <li>
+                <Link href="#">Lost and Found</Link>
+              </li>
+            </ul>
           </div>
-        </div>
 
-        {/* Footer Bottom */}
-        <div className="flex flex-col gap-2 w-[90%] lg:w-[80%]">
-          <hr />
-          <div className="flex text-[14px] py-2 text-white items-center justify-center">
-            <p>
-              © 2025 All Rights Reserved by Georgia Medi, Parent Company of
-              KlickEdu.
-            </p>
+          {/* Column 4 */}
+          <div>
+            <h3 className="text-[20px] font-medium mb-4">
+              Important Emergency Contacts
+            </h3>
+            <ul className="space-y-2 text-gray-500 text-[14px]">
+              <li>Women Helpline: 1091</li>
+              <li>Control Room: 100/112</li>
+              <li>Senior Citizens: 1090</li>
+              <li>Childline: 1098</li>
+            </ul>
           </div>
         </div>
       </div>
-    </>
+
+      {/* Bottom Bar */}
+      <div className="w-[70%] mx-auto mt-10 border-t border-gray-300 pt-6 pb-10 text-sm text-[#1c1c1c] flex flex-col md:flex-row justify-between items-center gap-4">
+        <p>© 2025 Nashik City Police</p>
+        <div className="flex gap-6">
+          <Link href="#">Sitemap</Link>
+          <Link href="#">Disclaimer</Link>
+        </div>
+        <div className="flex gap-4 text-[#57462a] text-lg">
+          <Link href="#">
+            <Image src="/footer/twitter-x.png" alt="X" width={20} height={20} />
+          </Link>
+          <Link href="#">
+            <FaFacebookF />
+          </Link>
+          <Link href="#">
+            <FaInstagram />
+          </Link>
+        </div>
+        <div className="flex flex-col gap-4 items-center text-[#57462a] font-medium">
+          <span>Visitor Count : 450601</span>
+          <span className="flex items-center gap-1">
+            <BsCalendar2Date /> Page updated : 5 August 2025
+          </span>
+        </div>
+      </div>
+
+      {/* Tagline and Compliance Buttons */}
+      <div className="w-[70%] mx-auto mt-12 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p className="text-xl text-gray-400">New Identity, New Presence</p>
+        <div className="flex gap-4">
+          <button className="bg-[#57462a] text-white px-4 py-1 rounded-full text-xs font-semibold hover:opacity-90">
+            ACCESSIBILITY COMPLIANT
+          </button>
+          <button className="bg-[#57462a] text-white px-4 py-1 rounded-full text-xs font-semibold hover:opacity-90">
+            CARBON COMPLIANT
+          </button>
+        </div>
+      </div>
+    </footer>
   );
 };
 
